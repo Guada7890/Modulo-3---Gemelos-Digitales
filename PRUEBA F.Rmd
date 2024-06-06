@@ -1,0 +1,46 @@
+---
+title: "Prueba F en Markdown"
+author: Equipo Linces
+date: March 22, 2005
+output: powerpoint_presentation
+---
+
+
+
+# Introduction
+Mostremos cómo se realiza una prueba F en RMarkdown para verificar el correcto modelado de un gemelo digital.
+En estadística, la prueba F, también conocida como prueba de Snedecor o prueba de Fisher-Snedecor, es una herramienta utilizada para comparar dos varianzas poblacionales. Se utiliza para determinar si existe evidencia suficiente para rechazar la hipótesis nula de que las varianzas son iguales.
+
+# Gemelo digital
+\label{sec:headings}
+Supongamos que hemos realizado el gemelo digital de alguna situación real y que tenemos corriendo la simulación, que nos otorga valores de una variable de su interés. Se cuentan con los datos de lo que ocurrió en la realidad, y ahora tenemos datos de lo que ocurre en el gemelo digital. 
+Lo que se debe hacer ahora, es comparar de alguna manera los datos de la realidad y la simulación, para corroborar el correcto funcionamiento de la simulación, y que en efecto tenemos un gemelo digital de la realidad.
+
+Este método es el único que sirve para verificar que los datos entregados por el gemelo pertenecen a la población del fenómenos real.
+
+# Prueba F en R
+Se usa una prueba F para probar si dos varianzas poblacionales son iguales. Las hipótesis nula y alternativa para la prueba son las siguientes:
+
+$$
+H_{0}:  σ_{1}^2 =  σ_{2}^2
+$$
+$$
+H_{1}:  σ_{1}^2 ≠ σ_{2}^2
+$$
+Entonces, se toma como correcta la hipótesis nula, se realiza el cálculo del estadístico F y se determina el valor p
+
+Si el valor p es menor a 0,05 se rechaza la hipótesis nula.
+
+# PRUEBA
+Datos del gemelo: x
+Datos reales: y
+
+```{r}
+x <- c (10, 12, 14, 15, 16)
+y <- c(11, 13,15,17,18)
+
+var.test (x, y)
+
+```
+#Conclusión
+Si el valor de p es menor que .05, rechazaríamos la hipótesis nula. Esto significa que tenemos suficiente evidencia para decir que las dos variaciones de población no son iguales.
