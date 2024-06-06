@@ -1,0 +1,219 @@
+---
+title: Implementación Selectiva de Herbicidas y Uso de Gemelos Digitales para Mitigar el Mal Uso de Herbicidas en la Agricultura
+authors:
+    
+  - name: María Emilia Gullé
+    department: Facultad de Ingeniería 
+    affiliation: Universidad Nacional de Cuyo
+    location: Mendoza, Chacras de Coria 5507
+    email: emigulle@gmail.com
+  - name: Guadalupe Gual Grossi
+    department:  Facultad de Ingeniería
+    affiliation: Universidad Nacional de Cuyo
+    location: Mendoza, San Martín 5570
+    email: guadalupegual03@gmail.com
+  - name: Lucía Boscafiori Ferrando
+    department: Facultad de Ingienería
+    affiliation: Universidad Nacional de Cuyo
+    location: Mendoza, Chacras de Coria 5507
+    email: luciaboscafiori@gmail.com
+  - name: Martín Federico Herrera
+    department: Facultad de Ingeniería
+    affiliation: Universidad Nacional de Cuyo
+    location: Mendoza, San Martín 5570
+    email: martinfederico.herrera@gmail.com 
+  - name: Delfina Di Paola
+    department: Facultad de Ingeniería
+    affiliation: Universidad Nacional de Cuyo
+    location: Mendoza, San Martín 5570
+    email: delfinadipaola2003@gmail.com
+  - name: María Paz Antich 
+    department: Facultad de Ingeniería
+    affiliation: Universidad Nacional de Cuyo
+    location: Mendoza, San Martín 5570
+    email: mariapazantich2@gmail.com
+keywords:
+  - Hervicida
+  - Aplicación selectiva
+  - Gemelos digitales
+  - IA
+abstract: |
+  Mal uso de herbicidas e implementacion de aplicacion selectiva y gemelos digitales.
+bibliography: references.bib
+output: rticles::arxiv_article
+---
+
+\newpage
+
+
+\large{}
+
+# Resumen
+
+Una de las ramas económicas más importantes de la Argentina es la agricultura.
+
+No sólo satisface la demanda interna sino que además sus productos se exportan al mundo. Desde la época de la colonia hasta el comienzo de este nuevo milenio, ha sufrido diversas transformaciones que le han permitido posicionarse como un modelo productivo global. A través de este trabajo se pretende mostrar cómo la tecnología, fiel impulsora de lo que hoy se denomina agricultura de precisión junto con los denominados ”gemelos digitales”, permite mejorar niveles de eficiencia productiva, disminuyendo los costos de producción y minimizando el impacto ambiental.
+
+# Situación problema
+
+El uso indiscriminado de herbicidas en la agricultura ha provocado diversos problemas ambientales y económicos.
+
+La aplicación generalizada de estos químicos no solo aumenta los costos de producción, sino que también contribuye a la contaminación del suelo y del agua, así como a la resistencia de las malezas.
+
+Este problema es especialmente grave en regiones agrícolas intensivas donde la gestión ineficiente de herbicidas genera impactos negativos significativos en los ecosistemas locales y en la salud humana.
+
+# Problemática del Uso de Herbicidas
+
+El mal uso de herbicidas puede tener diversas consecuencias negativas:
+
+## Daños a los cultivos:
+
+Aplicaciones excesivas pueden afectar negativamente el crecimiento y desarrollo de los cultivos.
+
+Posible muerte de plantas en áreas no objetivo, reduciendo el rendimiento.
+
+## Contaminación ambiental:
+
+Herbicidas pueden contaminar el suelo, el agua y el aire.
+
+Afecta la flora y fauna, poniendo en riesgo los ecosistemas y la salud humana.
+
+## Resistencia de las malezas:
+
+El uso continuo de los mismos herbicidas puede llevar a la resistencia en las malezas. Esto requiere el uso de herbicidas más potentes y tóxicos, aumentando los riesgos.
+
+## 
+
+En su informe "Los productos fitosanitarios en los sistemas productivos de la Argentina. Una mirada desde el INTA", el organismo nacional detalla que Argentina se caracteriza por tener un importante consumo anual de productos de síntesis química para la producción agrícola, de origen nacional o importados. En las 36 millones de hectáreas cultivadas, se utilizan 230 millones de litros de herbicidas y 350 millones de litros de otros tipos de agroquímicos. Los envases necesarios para su comercialización generan unas 17 mil toneladas de polietileno cada año. El informe reconoce el nivel de dependencia generada con los agrotóxicos en el actual modelo agropecuario al indicar su uso creciente: 151,3 millones de kilogramos o litros de productos comercializados en 2002, 225 millones de kilogramos o litros en 2008 y cerca de 317 millones de kilogramos o litros en 2012, según las últimas cifras publicadas por la Cámara de Sanidad Agropecuaria y Fertilizantes (Casafe).
+
+"<https://agenciatierraviva.com.ar/wp-content/uploads/2022/11/los_productos_fitosanitarios_en_los_sistemas_productivos_de_la_argentina_una_mirada_desde_el_inta.pdf>"
+
+# Herbicidas
+
+Definición de herbicida Los herbicidas son productos fitosanitarios utilizados para controlar especies vegetales no deseadas debido a que las mismas causan un impacto negativo en la producción y en el rendimiento en los cultivos de importancia económica.
+
+Seguidamente podemos resumir algunos daños causados por las malezas:
+
+-   Las malezas compiten con el cultivo, se benefician de alimentos y disminuyen la luz solar que debiera aprovechar el cultivo.
+
+-   Existe contaminación por semillas de malezas en la cosecha de granos y tubérculos disminuyendo su calidad, incluso anulando su valor para la siembra posterior o venta directa.
+
+-   Dificultan las labores en los cultivos.
+
+-   Son huéspedes temporales de plagas y enfermedades que pueden ser transmitidas luego, a los cultivos.
+
+-   Algunas son venenosas para el ganado, animales silvestres e inclusive para el hombre.
+
+## Clasificación de los herbicidas
+
+Los herbicidas pueden ser agrupados según su naturaleza química, su mecanismo de acción o el momento de aplicación, aunque no existe una única clasificación. Podemos clasificarlos brevemente de la siguiente manera:
+
+### Según el momento de aplicación:
+
+-   Preemergentes: Se aplican al suelo luego de la siembra pero antes de la emergencia del cultivo.
+-   Postemergentes: Se aplican después de la nacencia del cultivo.
+
+### Según su movilidad:
+
+-   De contacto: Destruyen solo el tejido vegetal en contacto con el químico. No se traslocan por el floema por lo que sólo afectan a las zonas de la planta en contacto con el herbicida.
+-   Sistémicos: Son trasladados a través de la planta por el floema, ya sea por aplicación foliar a las raíces, o aplicación en el suelo hasta las hojas.
+
+### Según su acción dentro de la planta:
+
+-   Totales: Eliminan todo tipo de vegetal con el que entren en contacto.
+
+-   Selectivos: Eliminan las hierbas indeseadas respetando al cultivo indicado.
+
+    [\@nikoloff2014genotoxicidad](https://doi.org/10.1016/j.cropro.2017.08.009)
+
+# Gemelos digitales
+
+En el siglo XXI se observa un creciente y acelerado avance con relación a las herramientas tecnológicas, lo cual abre un abanico de oportunidades para que todos los sectores económicos puedan ser analizados, modelándolos en ordenadores digitales, a través de los cuales, se pueden observar como unos gemelos digitales de la situación real. [@palacio2020modelado]
+
+Los gemelos digitales son plantas virtuales dotadas de una arquitectura y funcionalidades que les convierten en herramientas útiles para mejorar muchos aspectos de la operación de los procesos, desde el control a la optimización de los mismos.[@de2022gemelos]
+
+Su evolución en la industria Los gemelos digitales hacen referencia a una tecnología de software con el que se trata de representar digitalmente una realidad física, bien sea esta un producto, proceso o sistema; misma que a la par se apoya en otros recursos tecnológicos tales como: Big Data, IoT, Inteligencia Artificial, Cloud Computing y Machine Learning, entre otras, con la finalidad de proporcionar herramientas para la toma de decisiones, implementando adicionalmente capacidades de simulación y predicción. En las conclusiones fue posible deducir que, a pesar de que la tecnología de los GD representa un avance relativamente reciente, los expertos aseguran que ha tenido una rápida evolución y aplicación en varios tipos de industria; que la finalidad de crear un GD no es la conseguir la consumación de la entidad o réplica virtual en sí misma, sino más bien los beneficios que de éste es posible obtener; y que la evolución de los GD estará estrechamente vinculada a la propia evolución tecnológica y a la, cada vez mayor, admisión en distintas áreas e infraestructuras digitales en industrias, productos, ciudades y otras. [<https://doi.org/10.26820/recimundo/4>.(4).noviembre.2020.300-308]
+
+# Arquitectura de un Gemelo Digital
+
+En la siguiente figura se trata de sintetizar gráficamente la arquitectura de un gemelo digital, recogiendo los elementos fundamentales del mismo. En primer lugar, un conjunto de modelos como núcleo fundamental. Pero éstos deben de venir acompañados de métodos y herramientas de ajuste de parámetros, validación, identificación, etc., para su actualización en tiempo real. Todo ello constituye el bloque superior izquierdo de la figura.
+
+![](images/clipboard-2183241925.png)
+
+El segundo bloque lo forman los sistemas de toma de datos y mantenimiento de la información, apoyados en bases de datos en tiempo real, que son imprescindibles para la actualización de modelos y la toma de decisiones. Las herramientas para esta toma de decisiones forman el tercer bloque, típicamente basadas en optimización y simulación. Finalmente, la interacción con los usuarios representa el último bloque del conjunto, y en los sistemas industriales cobra cada vez más relevancia. La forma en la que estos elementos interaccionan podría resumirse en la Figura 2. La digitalización del proceso o sistema considerado permite obtener datos y enviarlos a una base de datos a medida que éstos se generan. Esta base de datos debe recoger no sólo históricos del proceso, laboratorio, etc., sino también los elementos necesarios para tomar decisiones o simular comportamientos dinámicos en diversas circunstancias y con variedad de objetivos. Para ello se necesitan incorporar datos tales como características físicas, propiedades químicas, termodinámicas, precios y, en general, los que sean relevantes para los objetivos del GD. La base de datos actúa tanto como servidor de información al resto de módulos como receptora de las consultas que los usuarios puedan hacer al GD. La información almacenada en el GD debe poder servir para actualizar sus modelos y ser usada por las herramientas que implementan funcionalidades del DT. Por su parte, dichas herramientas requerirán también de los modelos adecuados para responder a las consultas que puedan efectuarse. Estas operaciones implican la gestión y coordinación temporal y funcional de un conjunto de aplicaciones y elementos, que es la tarea central del DT. Los resultados de su utilización, además de almacenarse en la base de datos, se ponen a disposición de los usuarios y/o se aplican en el proceso. [@de2022gemelos]
+
+![](images/clipboard-688053224.png)
+
+# De la actividad industrial a la participación política
+
+Los gemelos digitales -digital twins-, definidos desde el ámbito científico-técnico como “real-time realistic digital representations of physical entities” (Korenhof, Blok y Kloppenburg, 2021), constituyen uno de los muchos y disruptivos fenómenos emergentes producidos por la transformación digital de las distintas esferas de actividad humana, tales como la productiva, la asistencial o la comunicativa. Su supuesto potencial para revelar estructuras, patrones y problemas de la entidad real y prever su comportamiento frente a futuras tensiones por posibles crisis (económicas, tecnológicas, naturales o sociales) ha generado altas expectativas en el ámbito industrial, pero también en las ciencias de la vida y del sistema terrestre, como herramienta altamente competente para evitar crisis futuras y abordar una mejora sustancial del diseño y aplicación de su entidad real y, con ello, de su sostenibilidad y optimización. Según diferentes estudios, el término digital twins y su aplicación práctica parecen estar estrechamente vinculados con la industria productiva (Tao ...[et al], 2018; Tao, Qi, Wang y Nee, 2019a y 2019b). Aunque la idea es previa, todo parece indicar que el término se acuñó durante los primeros años del siglo XXI en el campo de la Industria 4.0, muy posiblemente en la mejora de procesos y productos industriales, y su popularización se asocia a un proyecto aeroespacial de la NASA desarrollado en 2010 que pretendía prever cuál sería la vida útil de los vehículos espaciales. Como explica Christos I. Papanagnou, los digital twins fueron introducidos “initially as virtual clones to physical products, in order to improve geometry assurance in early product design phases or to observe and study certain aspects of the products without having to interfere or taking the product out of service” (Papanagnou, 2019: 3). Fruto de la Cuarta Revolución Industrial o Industria 4.0 se empezaron a poner en marcha ecosistemas ciberfísicos que, a través de hiperconexión de toda la realidad circundante gracias a la aplicación de técnicas y tecnologías digitales procedentes del campo del Internet de las Cosas, permitían obtener datos y metadatos tanto físicos como comportamentales en línea de cualquier elemento implicado y/o afectado por la actividad, ya sean máquinas, personas, animales o procesos. A través de estos datos y metadatos masivos en línea, se replica virtualmente cualquier tipo de arquitectura y su funcionamiento en una especie de clon virtual mediante métodos computacionales basados en inteligencia artificial, los cuales permiten someter estas arquitecturas a diversos tipos de tensiones para comprobar su respuesta e impactos y, posteriormente, ajustar el modelo para corregirlo o potenciarlo. “A digital twin is a virtual model used in smart manufacturing to optimize a particular aspect of operations. It provides a digital representation of the entire operation, enabling manufacturers to determine how best to streamline the production environment without physically changing any processes. Digital twins can also generate a virtual representation of the actual facility, created through the use of 3D scanners, sensors and lidar. As a result, manufacturers can create a complete, virtual 3D map of all assets. By gathering asset data in real time, manufacturers can create a fully integrated view of the asset throughout its lifecycle” (Ericsson, Hexagon y Little, 2020). Los gemelos digitales más desarrollados se estructuran principalmente alrededor de cuatro partes: el dispositivo físico que se quiere clonar; su réplica virtual en un sistema computacional; el ecosistema ciberfísico que permite generar datos y metadatos en línea del dispositivo físico; y la inteligencia artificial que permite diseñar el gemelo virtual mediante los datos y metadatos recopilados y ponerlo a prueba para revelar patrones y predecir anomalías y potencialidad. En los últimos tiempos, los espectaculares resultados cosechados por los gemelos digitales especialmente en la industria productiva han logrado captar el interés de otros campos de actividad tan dispares como el de las finanzas, la salud, la comunicación o la política. Esto permite prever anomalías en los procesos de producción, detectar enfermedades y necesidades de atención en las personas, mejorar la experiencia de usuario, poner a prueba los planes urbanísticos frente a flujos masivos de personas o catástrofes naturales, incrementar el ancho de banda cognitivo del electorado ante los grandes volúmenes de información política, o aumentar y mejorar la participación de la ciudadanía en los procesos de toma de decisiones, entre otras muchas cosas. Al respecto, se destaca la aplicación de gemelos digitales en la lucha contra el cambio climático. El proyecto Destination Earth (DestinE), financiado y coordinado por la European Commission, pretende “to develop a high precision digital model of the Earth to model, monitor and simulate natural phenomena and related human activities” (European Commission, 2020). La confianza de la Unión Europea en las técnicas y tecnologías digitales es tan alta que se ha comprometido a tener lista para 2030 la réplica digital “completa” y “viva” del planeta Tierra en un ordenador. También se destaca la aplicación de gemelos digitales en el ámbito de la salud. Un claro ejemplo de ello es el desarrollo de gemelos digitales de órganos humanos individuales o colectivos, especialmente corazones, para encontrar patrones o anomalías ocultas, prevenir enfermedades futuras o desarrollar dispositivos adaptados ad hoc de carácter cardiovascular (Gerach ...[et al], 2021; Dassault Systèmes, 2022). Otro ejemplo es la recreación de gemelos digitales de centros hospitalarios para observar y poner a prueba las estrategias operativas, la atención clínica, la dotación de personal, el flujo de personas, los horarios de personal y quirófano, o la toma de decisiones con el objetivo de mejorar la calidad asistencial, diseñar entornos más seguros y eficientes, prevenir anomalías en el sistema, entre otras muchas cosas (Kamel B. y Zhang, 2021). Finalmente, también se destaca la aplicación de gemelos virtuales en el campo de la política. Al respecto, sobresale la propuesta de Augmented democracy de Hidalgo (Sáez, 2018; Center for Collective Learning, 2021; Hidalgo ...[et al], 2020; Hidalgo, 2018; Hidalgo y Calvo, 2021), que propone mejorar las democracias modernas mediante el establecimiento de procesos de participación directa automatizada en la toma de decisiones políticas sustentadas sobre clones digitales de la ciudadanía política y de las instituciones y organizaciones democráticas implicadas en su desarrollo. Así como el proyecto financiado con fondos europeos “Digital Twins: Making Citizens Part of the Action” (Ruston y Kogut, 2021), el cual ha desarrollado un plan de acción para la toma de decisiones colaborativas basado en réplicas de ciudades virtuales y los datos y metadatos masivos en línea que genera la ciudadanía. [@calvo2022gemelos]
+
+# Solución
+
+## ¿Qué es la agricultura de precisión (AP)?
+
+Es un sistema empleado para analizar y controlar la variación espacio-temporal del terreno y el cultivo. La variación espacial comprende las diferencias en fertilidad de distintas secciones del terreno y las que se dan en el crecimiento de las plantas cultivadas. La variación temporal engloba las diferencias observadas en la producción de un mismo terreno entre una temporada y otra.
+
+## Diferencias entre la agricultura de precisión y la convencional
+
+La agricultura convencional considera que un terreno es homogéneo y aplica los insumos con base en valores promedio a toda la superficie de siembra; esto incrementa los costos de inversión y el impacto ambiental (como la contaminación del subsuelo). En contraste, en la AP se aplican distintas cantidades de insumos y se valoran las necesidades particulares de cada sección del cultivo y su respuesta en tiempo real
+
+# Beneficios de la Agricultura de precisión
+
+-   Gestión optimizada de las explotaciones.
+-   Reducción de la aplicación de pesticidas y fertilizantes.
+-   Menor impacto medioambiental.
+-   Productos con mayor valor nutritivo.
+-   Obtención de información más precisa y de trazabilidad, muy importante en las zonas con carencias de nitrógeno.
+-   Reducción de combustible en los tractores
+
+# Debilidades:
+
+-   Encontrar personal profesional especializado para el mantenimiento y desarrollo de los equipos.
+-   Vincular e integrar profesionales del área tecnologica vs profesionales del área agronómica
+-   Presenta mayor desarrollo para cultivos principales o masivos, aún no existen desarrollos para cultivos de menor implicancia
+
+# Oportunidades:
+
+-   Financiamiento que brindan ciertos bancos para la adquisición de este nuevo tipo de tecnologías.
+-   Inminente necesidad de producir cada vez más alimentos hace que la Agricultura de - Precisión se presente como una alternativa viable ya que genera producto con menores costos y mayor sustentabilidad ambiental.
+
+# Amenazas:
+
+-   Al estar en pleno florecimiento, es una nueva forma de llevar a cabo las tareas, lo cual tiene que romper con las barreras establecidas durante mucho tiempo.
+-   Mercado Externo: otros países podrán producir productos de menor costo.
+-   Política Actual: siendo la agricultura uno de los ejes centrales del país, no se ve para nada respaldada ni favorecida para que se pueda desarrollar ni para que genere un mayor crecimiento económico.
+
+# Historia de la AP:
+
+En Argentina, la Agricultura de Precisión comenzó durante el año 1995 de la mano del INTA Manfredi con la ayuda de la empresa D&E y Tecnocampo, año en que se realizó el primer mapa de rendimiento de un lote de Maíz en Monte Cristo, cercano a la ciudad de Córdoba. El interés y la adopción de la Agricultura de Precisión, se ve cada día más firme en Argentina; tanto es así, que la adopción siguió creciendo, aún en plena crisis de la venta de maquinaria (1999 – 2002). Actualmente existen en el mercado activo de cosechadoras, 22.300 máquinas, de las cuales, ya 1.800 cuentan con monitor de rendimiento, y de ellas, unas 1.500 poseen asistencia de GPS, o sea, que del total del área cosechable anualmente en Argentina (28 millones de hectáreas) se estima que se podrían mapear 2 millones de ha. (7.15%), lo que no es poco, teniendo en cuenta que lo que se mapea fundamentalmente son ensayos que generan datos sobre manejo de insumos según ambientes, que luego son extrapolados a muchas otras hectáreas. El banderillero satelital, o bien, las barras de luces que guían las máquinas en el campo con señal GPS, ya son una constante en pulverizadoras autopropulsadas; las computadoras interactivas en estas máquinas también son comunes; este equipamiento, sumado a una computadora manual (Palm top) y a un programa específico, permiten aplicaciones variables, siendo ya muy comunes en el chorreado de UAN, o sea, nitrógeno líquido o nitrógeno más azufre, o bien, azufre sólo, para Trigo / Soja / Maíz, todo ello, según una prescripción (recomendación) respetando los ambientes, realizada por algunos de los varios métodos de análisis conocidos. También existen en el mercado a nivel experimental, diversas herramientas para evaluar parámetros específicos de un cultivo gramínea en tiempo real (N Sensor, Green Seeker), que permitirán en un futuro cercano, abandonar el manejo de las aplicaciones de fertilizantes uniforme en estado avanzado de los cultivos, pasando al manejo de la aplicación de fertilizantes según ambientes, leyendo el estado de los cultivos y sus diferencias nutricionales a nivel de la combinación inteligente del índice verde y biomasa en tiempo real, por ejemplo. [@bragachini2004historia]
+
+# Hipótesis
+La implementación selectiva de herbicidas, complementada con el uso de gemelos digitales, puede optimizar la aplicación de estos productos, reduciendo significativamente su uso y minimizando el impacto ambiental.
+Esta hipótesis se basa en la capacidad de la tecnología para identificar y tratar únicamente las áreas afectadas por malezas, además de utilizar modelos digitales para simular y prever los efectos de diferentes estrategias de manejo.
+
+
+# Estado del Arte
+
+En diversas partes del mundo, se han desarrollado tecnologías para la aplicación selectiva de herbicidas con resultados prometedores.
+Por ejemplo, en Argentina, la empresa Milar Agro Tech ha desarrollado el Eco Sniper, un sistema que utiliza cámaras ópticas en tiempo real para aplicar herbicidas solo sobre malezas detectadas, logrando ahorros de hasta un 80% en productos químicos.
+En Australia, sistemas como WeedSeeker y WEED it utilizan sensores para medir índices ópticos y determinar la necesidad de aplicación de herbicidas, reduciendo el uso excesivo de estos químicos.
+En Estados Unidos, Jhon Deere ha desarrollado la tecnología See and Spray, aplicación de cámaras de alta definición, software de procesamiento de imágenes con IA, aplicada a los pulverizadores de la renombrada marca.
+
+# Conclusiones
+
+La implementación selectiva de herbicidas, apoyada por tecnologías de gemelos digitales, demuestra ser una solución efectiva para reducir el uso de químicos en la agricultura.
+Los datos obtenidos respaldan la hipótesis inicial y sugieren que la adopción generalizada de estas tecnologías podría tener un impacto positivo tanto económico como ambiental en la producción agrícola.
+Sin embargo, es esencial continuar investigando y optimizando estas tecnologías para maximizar sus beneficios y superar posibles limitaciones.
+
+# Referencias Bibliográficas
+
+<https://www.agribio.com.ar/noticias/canada-prueban-una-caja-con-sensores-para-mapear-malezas-en-trigo>
+
+<https://www.argentina.gob.ar/sites/default/files/2021/09/informe_tecnico_-_atrazina.pdf>
+
+<https://www.aapresid.org.ar/blog/aplicaciones-selectivas-como-aliadas-de-la-agricultura-siempre-verde/#>:\~:text=La%20aplicaci%C3%B3n%20selectiva%20de%20herbicidas,detecte%20la%20presencia%20de%20malezas.
+
+<https://www.contenidoscrea.org.ar/publicaciones/agtech-beneficios-la-aplicacion-selectiva-herbicidas-n5326801>
+
+<https://www.deere.com/en/sprayers/see-spray/>
